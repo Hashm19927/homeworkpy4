@@ -4,19 +4,19 @@
 # Пользователь вводит 2 числа. n — кол-во элементов первого множества. 
 # m — кол-во элементов второго множества. Затем пользователь вводит сами элементы множеств.
 
-# from random import randint
+from random import randint
 
-# a=int(input('Введите количество значений в 1м массиве: '))
-# b=int(input('Введите количество значений в 2м массиве: '))
-# str1 = []
-# str2 = []
-# for i in range(a):
-#     str1.append(randint(0, 5))
-# print(str1)
-# for i in range(b):
-#     str2.append(randint(0, 5))
-# print(str2)
-# print(set(str1+str2))
+a=int(input('Введите количество значений в 1м массиве: '))
+b=int(input('Введите количество значений в 2м массиве: '))
+str1 = []
+str2 = []
+for i in range(a):
+    str1.append(randint(0, 5))
+print(str1)
+for i in range(b):
+    str2.append(randint(0, 5))
+print(str2)
+print(set(str1+str2))
 
 
 # Задача 24: 
